@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Covfefe",
+        "repositoryURL": "https://github.com/palle-k/Covfefe.git",
+        "state": {
+          "branch": null,
+          "revision": "49db517f860a0da72416f4339b32410163f50775",
+          "version": "0.1.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
