@@ -47,7 +47,7 @@ let grammarString = """
 """
 let grammar = try Grammar(bnfString: grammarString, start: "sum")
 
-let parser = CYKParser(grammar: grammar)
+let parser = EarleyParser(grammar: grammar)
 let tokenizer = DefaultTokenizer(grammar: grammar)
 
 struct EvaluationError: Error {
